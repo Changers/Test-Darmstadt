@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import ChangersSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("version : ", Changers.versionSDK)
         // Do any additional setup after loading the view.
     }
 

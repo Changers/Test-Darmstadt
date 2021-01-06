@@ -1,0 +1,33 @@
+{
+  "name": "changers-ios-sdk",
+  "version": "1.5.2",
+  "summary": "A brief description of Changers iOS SDK project.",
+  "description": "An extended description of Changers iOS SDK project.",
+  "homepage": "https://changers.com/",
+  "license": {
+    "type": "Copyright",
+    "text": "                   Copyright 2020             \n"
+  },
+  "authors": {
+    "Clement Yerochewski": "c.yerochewski@changers.com"
+  },
+  "source": {
+    "git": "https://github.com/Changers/changers-ios-sdk.git",
+    "tag": "1.5.2"
+  },
+  "public_header_files": "ChangersSDK.framework/Headers/*.h",
+  "source_files": "ChangersSDK.framework/Headers/*.h",
+  "vendored_frameworks": "ChangersSDK.framework",
+  "platforms": {
+    "sos": null,
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "swift_version": "5.0"
+}

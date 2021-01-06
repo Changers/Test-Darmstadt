@@ -1,0 +1,21 @@
+PODS:
+  - changers-ios-sdk (1.5.2)
+
+DEPENDENCIES:
+  - changers-ios-sdk (from `https://github.com/Changers/changers-ios-sdk.git`)
+
+EXTERNAL SOURCES:
+  changers-ios-sdk:
+    :git: https://github.com/Changers/changers-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  changers-ios-sdk:
+    :commit: 2cf57a71eb01fd584a98ff6fd354b0001cb5bffc
+    :git: https://github.com/Changers/changers-ios-sdk.git
+
+SPEC CHECKSUMS:
+  changers-ios-sdk: 6569eb04b24cf57dbf724388e149a0dc9eb892f3
+
+PODFILE CHECKSUM: 1901d339ed823ef538404578e0a98c2282ef187b
+
+COCOAPODS: 1.10.0.rc.1

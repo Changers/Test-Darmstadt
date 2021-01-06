@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA742678225C6305E409796 /* Pods_Test_Darmstadt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D9D872CBF4362810978D89 /* Pods_Test_Darmstadt.framework */; };
 		E401E1EC25A5CEDB005CB74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1EB25A5CEDB005CB74D /* AppDelegate.swift */; };
 		E401E1EE25A5CEDB005CB74D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1ED25A5CEDB005CB74D /* SceneDelegate.swift */; };
 		E401E1F025A5CEDB005CB74D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1EF25A5CEDB005CB74D /* ViewController.swift */; };
 		E401E1F325A5CEDB005CB74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E401E1F125A5CEDB005CB74D /* Main.storyboard */; };
 		E401E1F525A5CEDE005CB74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E401E1F425A5CEDE005CB74D /* Assets.xcassets */; };
 		E401E1F825A5CEDE005CB74D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E401E1F625A5CEDE005CB74D /* LaunchScreen.storyboard */; };
+		E401E21525A5D8F4005CB74D /* MotionTagSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E401E21425A5D8F4005CB74D /* MotionTagSDK.xcframework */; };
+		E401E21625A5D8F4005CB74D /* MotionTagSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E401E21425A5D8F4005CB74D /* MotionTagSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E401E21725A5D8F4005CB74D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E401E21625A5D8F4005CB74D /* MotionTagSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2B3DD52744896D13A7CC6295 /* Pods-Test-Darmstadt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-Darmstadt.release.xcconfig"; path = "Target Support Files/Pods-Test-Darmstadt/Pods-Test-Darmstadt.release.xcconfig"; sourceTree = "<group>"; };
+		73D9D872CBF4362810978D89 /* Pods_Test_Darmstadt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Darmstadt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02E43E8F4CDB0ECEFB2EBDB /* Pods-Test-Darmstadt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-Darmstadt.debug.xcconfig"; path = "Target Support Files/Pods-Test-Darmstadt/Pods-Test-Darmstadt.debug.xcconfig"; sourceTree = "<group>"; };
 		E401E1E825A5CEDB005CB74D /* Test-Darmstadt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-Darmstadt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E401E1EB25A5CEDB005CB74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E401E1ED25A5CEDB005CB74D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,7 @@
 		E401E1F425A5CEDE005CB74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E401E1F725A5CEDE005CB74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E401E1F925A5CEDE005CB74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E401E21425A5D8F4005CB74D /* MotionTagSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MotionTagSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA742678225C6305E409796 /* Pods_Test_Darmstadt.framework in Frameworks */,
+				E401E21525A5D8F4005CB74D /* MotionTagSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8806F0E9BE8FD5BDC1CD15DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E401E21425A5D8F4005CB74D /* MotionTagSDK.xcframework */,
+				73D9D872CBF4362810978D89 /* Pods_Test_Darmstadt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C47E60FFE2E04C7E81BC93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02E43E8F4CDB0ECEFB2EBDB /* Pods-Test-Darmstadt.debug.xcconfig */,
+				2B3DD52744896D13A7CC6295 /* Pods-Test-Darmstadt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E401E1DF25A5CEDA005CB74D = {
 			isa = PBXGroup;
 			children = (
 				E401E1EA25A5CEDB005CB74D /* Test-Darmstadt */,
 				E401E1E925A5CEDB005CB74D /* Products */,
+				C0C47E60FFE2E04C7E81BC93 /* Pods */,
+				8806F0E9BE8FD5BDC1CD15DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E401E1FC25A5CEDE005CB74D /* Build configuration list for PBXNativeTarget "Test-Darmstadt" */;
 			buildPhases = (
+				A7E0A8B5D2A45438141921A5 /* [CP] Check Pods Manifest.lock */,
 				E401E1E425A5CEDB005CB74D /* Sources */,
 				E401E1E525A5CEDB005CB74D /* Frameworks */,
 				E401E1E625A5CEDB005CB74D /* Resources */,
+				B0A16579EDF52D9840201DBF /* [CP] Embed Pods Frameworks */,
+				E401E21725A5D8F4005CB74D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +177,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7E0A8B5D2A45438141921A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-Darmstadt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A16579EDF52D9840201DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test-Darmstadt/Pods-Test-Darmstadt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test-Darmstadt/Pods-Test-Darmstadt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test-Darmstadt/Pods-Test-Darmstadt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E401E1E425A5CEDB005CB74D /* Sources */ = {
@@ -200,6 +288,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -261,6 +350,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -283,12 +373,14 @@
 		};
 		E401E1FD25A5CEDE005CB74D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02E43E8F4CDB0ECEFB2EBDB /* Pods-Test-Darmstadt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QYL8GFRZX7;
 				INFOPLIST_FILE = "Test-Darmstadt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +394,14 @@
 		};
 		E401E1FE25A5CEDE005CB74D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3DD52744896D13A7CC6295 /* Pods-Test-Darmstadt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QYL8GFRZX7;
 				INFOPLIST_FILE = "Test-Darmstadt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
